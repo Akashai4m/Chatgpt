@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
+.wholebg{
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%);
 
-.App-link {
-  color: #61dafb;
-}
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.head {
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 121px;
+line-height: 75px;
+/* or 121% */
+
+
+letter-spacing: -0.04em;
+
+background: #AE67FA;
+background: repeating-radial-gradient(ellipse farthest-side at top left, #AE67FA 71%, #F49867 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.input {
+  width: 70%;
+  background: #052D56;
+border-radius: 5px 0px 0px 5px;
 }
